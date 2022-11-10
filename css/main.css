@@ -85,8 +85,10 @@ main{
 
 .pic-1 {
     position: relative;
-    width: 98%;
-    margin: 10px 5px 5px 10px
+    width: 100%;
+   margin-top: 10px;
+  
+    
 }
 
 .heading{
@@ -96,7 +98,7 @@ main{
     text-align: center;
 }
 
-button {
+.btn1 {
 position: absolute; top: 20%;
 background-color: red;
 border-radius: 4px;
@@ -165,15 +167,17 @@ h4 {
 
 /*Jackets page start main*/ 
 
-.all-jackets {
-    width: 100vw;
+.all-jacketsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    place-items: center;
+    padding-top: 20px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     padding: 30px;
-    margin-right: 100px;
-    
-   
+
 }
 
 
@@ -182,9 +186,7 @@ h4 {
 position: absolute;
 }
 
-.xtreme {
 
-}
 
 .image-container {
 max-width: 400px;
@@ -192,12 +194,35 @@ max-width: 400px;
 
 }
 
-.image {
-    height: auto;
+.jackets {
+    height: 450px;
     width: 100%;
     background-color: rgb(209, 209, 209);
     margin-right: 100px;
+
 }
+
+/*Jackets page end */
+
+/*Spesific jacket page*/ 
+
+.watch {
+  height: 450px;
+  width: 100%;
+  background-color: rgb(209, 209, 209);
+  margin-right: 100px;
+}
+
+.btn2 {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+ font-size: 20px;
+}
+
+
+
+
 
 
 
