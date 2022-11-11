@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+}
+
+/*Logo*/ 
+.logo {
+    width: 130px;
+    margin: auto;
+    display: flex;
+    float: left;
+    margin-left: 30px;
+    }
+
+/* Font in footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Navigation Bar */
+.nav-bar,
+#menu-checkbox{
+  display: none;
+  z-index: 1;
+}
+
+#menu-checkbox:checked ~ .nav-bar{
+    display: block;
+  }
+
+  .fas {
+    padding: 20px;
+  }
+
+  .nav-bar{
+    position: absolute;
+    background-color: white;
+    left: 0px;
+    height: 70px;
+  
+  }
+
+  header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+
+  .nav-bar a{
+    display: block;
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+  }
+  .dropdownlinks{
+    background-color: #0F3B53;
+  }
+
+@media (min-width: 600px){
+   .nav-bar{
+    display: block;
+    position: static;
+    display: flex;
+
+   } 
+
+   .hamburger-icon{
+    display: none;
+    margin: 20px;
+   }
+
+   .nav-bar a{
+    display: inline-block;
+   }
+}
+/* Navigation Bar end */
+
+/*Footer */
+.footer {
+    background-color: #0F3B53;
+    padding: 0 0;
+    margin-top: 5%;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    min-width: 100%;
+
+}
+
+.footer-col{
+width: 25%;
+padding: 0 25px;
+text-decoration: none;
+font-size: 12px;
+
+}
+
+.footer-col h4{
+    display: flex;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+h4 {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.footer-col a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+/*Footer end */
+
+
+
+/*Body*/
+
+.whole {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 25px;
+min-height: 100vh;
+
+}
+
+form{
+padding: 20px;
+
+
+}
+
+.row1{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 15px;
+
+}
+
+.col1{
+flex: 1 1 150px;
+
+}
+
+.title{
+font-size: 20px;
+padding-bottom: 10px;
+text-transform: uppercase;
+
+
+}
+
+.inputbox{
+    margin: 15px 0;
+}
+
+span{
+    margin-bottom: 10px;
+    display: block;
+}
+
+input{
+    width: 100%;
+    border: solid black;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.pay{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background-color: #0F3B53;
+    color: white;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+/*Body*/
+
+/* Order confirmation start */
+
+.check{
+font-size: 150px;
+padding-top: 50px;
+}
+
+.orderconf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 10px;
+}
+
+.par{
+width: 60vw;
+}
+
+

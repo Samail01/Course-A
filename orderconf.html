@@ -4,18 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order confirmation | RainyDays</title>
+    <title>Homepage | RainyDays</title>
+    <link rel="stylesheet" href="./css/payment.css" />
+    <script
+      src="https://kit.fontawesome.com/155a3ba382.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
-</html>
 
-<header class="header">
-  <a href="./index.html">Home</a>
-  <a href="./jackets.html">Jackets</a>
-  <img class="logo" src="./media/RainyDays_Logo-2.png" alt="Rainydays logo" />
-  <a href="./about.html">About</a>
-  <a href="./contact.html">Contact</a>
-  <div><i class="fa-regular fa-cart-shopping"></i></div>
-  <div><i class="fa-regular fa-user"></i></div>
-  <div><i class="fa-regular fa-magnifying-glass"></i></div>
-</header>
+  <header class="header">
+    <img class="logo" src="./media/RainyDays_Logo-2.png" alt="Rainydays logo" />
+    <input type="checkbox" id="menu-checkbox" />
+    <label for="menu-checkbox" class="hamburger-icon"
+      ><i class="fas fa-bars"></i>
+    </label>
+    <nav class="nav-bar">
+      <a class="dropdownlinks" href="./index.html">Home</a>
+      <a class="dropdownlinks" href="./jackets.html">Jackets</a>
+      <a class="dropdownlinks" href="./about.html">About</a>
+      <a class="dropdownlinks" href="./contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="orderconf">
+      <div class="check">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h3>Thank you for your Order</h3>
+      <p>Your order number is: 123456789</p>
+      <p class="par">
+        You will receive an order confirmation email with details of your order
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+
+          <a href="./index.html">Home</a>
+          <a href="./jackets.html">Jackets</a>
+          <a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Info</h4>
+          Destination, Currency & Language
+          <br />
+          Norway, Nok, English
+        </div>
+
+        <div class="social-links">
+          <h4>Follow us</h4>
+
+          <a href="#"> <i class="fab fa-facebook-f"></i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+          <a href="#"> <i class="fab fa-instagram"></i></a>
+          <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
