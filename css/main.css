@@ -284,6 +284,58 @@ span{
 
 
 
+.whole-cart{
+
+padding-top: 40px;
+padding-bottom: 155px;
+padding-left: 10px;
+
+}
+
+.fir-row{
+display: flex;
+justify-content: space-around;
+
+
+
+}
+
+
+.fir-row p{
+ padding: 70px 15px 0 15px;
+ border-bottom: 2px solid black;
+ 
+}
+
+.sec-row{
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-bottom: 2px solid black;
+
+
+}
+
+.img3{
+width: 75px;
+
+}
+
+.whole-cart button{
+  font-size: 13px;
+  
+}
+
+.btn3{
+  position: absolute;
+text-decoration: none;
+font-size: 30px;
+background-color: black;
+color: white;
+border-radius: 5px;
+left: 50%;
+
+}
 
 
 
@@ -292,24 +344,15 @@ span{
 
 
 
-
-/*Cart site end */
-
-
-
-
-
+@media (min-width: 620px){
+  .fir-row p{
+    padding: 30px 60px 0 60px;
+  }
+  
 
 
 
 
 
 
-
-
-
-
-
-
-
-
+  /*Cart site end */
