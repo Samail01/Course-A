@@ -30,23 +30,30 @@ body{
   #menu-checkbox{
     display: none;
     z-index: 1;
+
   }
+
 
   #menu-checkbox:checked ~ .nav-bar{
     display: block;
   }
 
+  .fas {
+    padding: 20px;
+  }
+
   .nav-bar{
     position: absolute;
     background-color: white;
-  left: 0px;
-  height: 70px;
+    left: 0px;
+    height: 70px;
+  
   }
 
   header{
-    position: relative;
     height: 100%;
     width: 100%;
+    display: flex;
   }
 
   .nav-bar a{
@@ -63,16 +70,21 @@ body{
    .nav-bar{
     display: block;
     position: static;
+    display: flex;
+
    } 
 
    .hamburger-icon{
     display: none;
+    margin: 20px;
    }
 
    .nav-bar a{
     display: inline-block;
    }
 }
+
+
 /* Navigation Bar end */
 
 /*Body content */
@@ -199,8 +211,11 @@ max-width: 400px;
     width: 100%;
     background-color: rgb(209, 209, 209);
     margin-right: 100px;
+  }
 
-}
+  .border-box {
+    background-color: rgb(232, 225, 225);
+  }
 
 /*Jackets page end */
 
@@ -208,9 +223,16 @@ max-width: 400px;
 
 .watch {
   height: 450px;
-  width: 100%;
+  width: 90%;
   background-color: rgb(209, 209, 209);
-  margin-right: 100px;
+  margin: 20px;
+}
+
+.jacket-info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
 }
 
 .btn2 {
@@ -218,7 +240,72 @@ max-width: 400px;
   color: white;
   border-radius: 5px;
  font-size: 20px;
+ margin-bottom: 30px;
+
 }
+
+span{
+  font-weight: bold;
+}
+
+.sizes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.sizes button{
+  font-size: 15px;
+}
+
+/*Spesific jacket page end */ 
+
+
+/*About site start*/ 
+
+.about{
+  padding: 10px;
+}
+
+/* About site end*/
+
+/* Contact site start*/
+
+.contact{
+  padding: 20px;
+  padding-top: 10px;
+}
+
+/* Contact site end */
+
+/*Cart site start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Cart site end */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
