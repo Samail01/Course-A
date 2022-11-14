@@ -131,6 +131,17 @@ h4 {
     color: white;
     padding: 5px;
 }
+
+.footer .social-links a{
+  color: black;
+  }
+  
+  .footer .social-links a:hover{
+    color: green;
+  }
+
+
+
 /*Footer end */
 
 
@@ -190,14 +201,20 @@ input{
     text-transform: none;
 }
 
+
+
 .pay{
-    width: 100%;
-    padding: 12px;
+    width: 30%;
     font-size: 17px;
     background-color: #0F3B53;
     color: white;
-    margin-top: 7px;
+    padding: 10px 5px 10px 5px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:5px;
 }
 
 /*Body*/
@@ -217,8 +234,5 @@ padding-top: 50px;
     gap: 10px;
 }
 
-.par{
-width: 60vw;
-}
 
 

@@ -116,8 +116,18 @@ background-color: red;
 border-radius: 4px;
 text-align: center;
 margin-top: 1.3rem;
-font-size: 20px;
+font-size: 30px;
 font-weight: bold;
+border: solid black 2px;
+padding: 5px;
+border-radius: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.btn1 a {
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -177,6 +187,13 @@ h4 {
     padding: 5px;
 }
 
+.footer .social-links a{
+  color: black;
+  }
+  
+  .footer .social-links a:hover{
+    color: green;
+  }
 /*Jackets page start main*/ 
 
 .all-jacketsgrid {
@@ -222,10 +239,16 @@ max-width: 400px;
 /*Spesific jacket page*/ 
 
 .watch {
-  height: 450px;
-  width: 90%;
+  height: 600px;
+  width: 100%;
   background-color: rgb(209, 209, 209);
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+
+ 
 }
 
 .jacket-info{
@@ -235,13 +258,17 @@ max-width: 400px;
   
 }
 
-.btn2 {
+.btn2 a {
   background-color: black;
   color: white;
   border-radius: 5px;
  font-size: 20px;
- margin-bottom: 30px;
+}
 
+.btndiv{
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
 }
 
 span{
@@ -335,6 +362,7 @@ color: white;
 border-radius: 5px;
 left: 50%;
 
+
 }
 
 
@@ -353,4 +381,3 @@ left: 50%;
 
 
 /* Checkout site start */
-
