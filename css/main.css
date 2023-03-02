@@ -59,8 +59,9 @@ body{
   .nav-bar a{
     display: block;
     color: black;
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-color: white;
+    text-decoration: none;
   }
   .dropdownlinks{
     background-color: #0F3B53;
@@ -123,6 +124,7 @@ padding: 5px;
 border-radius: 10px;
 padding-left: 10px;
 padding-right: 10px;
+
 }
 
 .btn1 a {
@@ -381,3 +383,4 @@ left: 50%;
 
 
 /* Checkout site start */
+
